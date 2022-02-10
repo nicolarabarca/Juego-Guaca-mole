@@ -42,7 +42,7 @@ function countDown() {
   if (currentTime == 0) {
     clearInterval(countDownTimerId);
     clearInterval(timerId);
-    alert("¡Perdiste! Tu puntuación final es  " + result);
+    alert(`¡Perdiste! Tu puntuación final es  ${result}`);
   }
 }
 
